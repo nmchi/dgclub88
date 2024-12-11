@@ -54,7 +54,7 @@ export default function RichText(props: Props) {
       className={cn(
         {
           'container ': enableGutter,
-          'max-w-none': !enableGutter,
+          'max-w-none leading-tight': !enableGutter,
           'mx-auto prose md:prose-md dark:prose-invert ': enableProse,
         },
         className,
